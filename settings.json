@@ -1,0 +1,89 @@
+{
+	"workbench.iconTheme": "vscode-icons",
+	"php.suggest.basic": false,
+	"cucumberautocomplete.steps": [
+	    "t/Integration/Contexts/*.php",
+	    "t/Integration/Contexts/AdsEndpoints/*.php",
+	    "t/Integration/Contexts/Api/*.php",
+	    "t/Integration/Contexts/Entity/*.php",
+	    "t/Integration/Contexts/Queue/*.php",
+	    "t/Integration/Contexts/Services/*.php"
+	],
+	"cucumberautocomplete.syncfeatures": "t/Integration/Features/*feature",
+	"files.autoSave": "afterDelay",
+	"editor.minimap.enabled": false,
+	"workbench.colorTheme": "Monokai Dimmed",
+	"sync.gist": "83015f2f8cd243506bd4605081b3f71e",
+	"workbench.editorAssociations": [
+		{
+			"viewType": "jupyter.notebook.ipynb",
+			"filenamePattern": "*.ipynb"
+		}
+	],
+	{
+	  "key": "tab space",
+	  "command": "extension.vim_escape",
+	  "when": "editorTextFocus && vim.active && !inDebugRepl"
+	},
+	{
+		"key": "tab i",
+		"command": "editor.action.revealDefinition",
+		"when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+	},
+	{
+		"key": "alt+k",
+		"command": "workbench.action.quickOpenSelectPrevious",
+		"when": "inQuickOpen"
+	},
+	{
+		"key": "alt+j",
+		"command": "workbench.action.quickOpenSelectNext",
+		"when": "inQuickOpen"
+	},
+	{
+		"key": "tab k",
+		"command": "workbench.action.navigateBack"
+	},
+	{
+		"key": "tab j",
+		"command": "workbench.action.navigateForward"
+	},
+	{
+		"key": "tab m",
+		"command": "workbench.action.nextEditor"
+	},
+	{
+		"key": "tab n",
+		"command": "workbench.action.previousEditor"
+	},
+	{
+		"key": "tab t",
+		"command": "workbench.action.terminal.toggleTerminal",
+		"when": "terminal.active"
+	},
+	{
+		"key": "tab v",
+		"command": "toggleVim"
+	},
+	{
+		"key": "tab alt+j",
+		"command": "workbench.action.splitEditorDown"
+	},
+	{
+		"key": "tab alt+h",
+		"command": "workbench.action.splitEditorLeft"
+	},
+	{
+		"key": "tab alt+l",
+		"command": "workbench.action.splitEditorRight"
+	},
+	{
+		"key": "tab alt+k",
+		"command": "workbench.action.splitEditorUp"
+	},
+	{
+		"key": "tab alt+t",
+		"command": "workbench.action.terminal.openNativeConsole",
+		"when": "!terminalFocus"
+	}
+}
